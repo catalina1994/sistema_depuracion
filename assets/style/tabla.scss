@@ -1,0 +1,15 @@
+.table{
+    background-color:#fff;
+    &>thead{
+        background-color:#E5E5E5;
+        font-size:12px;
+    }
+    i.fa{
+        color:#686666;
+    }
+    .btn{
+        i.fa{
+            color:#fff;
+        }
+    }
+}

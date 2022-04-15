@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAC,IAAI;CAaxB;;AAdD,AAEI,MAFE,GAEA,KAAK,CAAA;EACH,gBAAgB,EAAC,OAAO;EACxB,SAAS,EAAC,IAAI;CACjB;;AALL,AAMI,MANE,CAMF,CAAC,AAAA,GAAG,CAAA;EACA,KAAK,EAAC,OAAO;CAChB;;AARL,AAUQ,MAVF,CASF,IAAI,CACA,CAAC,AAAA,GAAG,CAAA;EACA,KAAK,EAAC,IAAI;CACb",
+    "sources": [
+        "tabla.scss"
+    ],
+    "names": [],
+    "file": "tabla.css"
+}

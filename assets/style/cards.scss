@@ -1,0 +1,62 @@
+//card menu
+.d-cardMain{
+    width: 90%;
+    background-color:#fff;
+    padding:1em 2em;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgba(0,0,0, .2);
+    border-bottom: 6px solid $color_primary;
+    margin: 0 auto 2em;
+    min-height:220px ;
+    @include mediaQ(769px){
+      width: 210px;
+      margin: 0 .5em 2em;
+    }
+    .d-cardMain-title{
+      text-align:center;
+      font-size: 14px;
+      line-height: 1.1;
+      color: $color_primary;
+    }
+    .d-cardMain-img{
+      width: 70%;
+    }
+  }
+
+.d-cardDuo{
+    border-top: 1px solid red;
+    background-color:#fff;
+    margin-bottom:.7em;
+    border: 1px solid #DAC2EC ;
+    border-radius: 6px;
+    overflow: hidden;
+    @include mediaQ(769px){
+        display:flex;
+    }
+
+    .d-cardDuo-header{
+        width:100%;
+        padding: 0.5em 1em;
+        background-color: #366EAF;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:16px;
+        margin:0px;
+        @include mediaQ(769px){
+            width: 160px;
+        }
+    }
+    .d-cardDuo-body{
+        padding: 1em;
+        width: 100%;
+    }
+}
+.d-cardBlock{
+  padding:.5em .7em;
+  border:1px solid #E5E5E5;
+  background-color:#F6F8F1; 
+
+}
+  

@@ -1,0 +1,96 @@
+
+//font Roboto
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../font/roboto/Roboto-Light.woff") format("woff"), /* Modern Browsers */
+  url("../font/roboto/Roboto-Light.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../font/roboto/Roboto-Bold.woff") format("woff"), /* Modern Browsers */
+  url("../font/roboto/Roboto-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-medium";
+  src: url("../font/roboto/Roboto-Medium.woff");
+  src: url("../font/roboto/Roboto-Medium.woff") format("woff"),
+  url("../font/roboto/Roboto-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-regular";
+  src: url("../font/roboto/Roboto-Regular.woff");
+  src: url("../font/roboto/Roboto-Regular.woff") format("woff"),
+  url("../font/roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+//font
+
+
+.text-principal{
+  color: $color-light-text;
+  display: none;
+  @include mediaQ(769px){
+    display: block;
+    text-align: left;
+  }
+  
+}
+.title-principal{
+  color: $color-light-text;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  @include mediaQ(769px){
+    text-align: left;
+    font-size: 38px;
+  }
+  @include mediaQ(992px){
+    font-size: 45px;
+    margin-bottom: .5em;
+  }
+}
+
+.title-error-principal{
+  color: $color-light-text;
+  font-size: 64px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.sub-title-error-principal{
+  color: $color-light-text;
+  font-size: 32px;
+  padding-top: 0;
+  text-align: center;
+}
+.sub-p-error-principal{
+  color: $color-light-text;
+  font-size: 16px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.d-subtitle{
+  color: #686666;
+  i{
+    color: $color-third;
+  }
+}
+.d-subtitleColor{
+  font-size: 16px;
+  color:$color-third;
+  font-family: "Roboto-Bold"
+}
+
+.d-text{
+  color: #686666;
+  font-size: 14px;
+}

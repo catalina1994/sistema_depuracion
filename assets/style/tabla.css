@@ -1,0 +1,17 @@
+.table {
+  background-color: #fff;
+}
+
+.table > thead {
+  background-color: #E5E5E5;
+  font-size: 12px;
+}
+
+.table i.fa {
+  color: #686666;
+}
+
+.table .btn i.fa {
+  color: #fff;
+}
+/*# sourceMappingURL=tabla.css.map */
